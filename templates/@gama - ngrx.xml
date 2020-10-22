@@ -1,0 +1,21 @@
+<templateSet group="@gama - ngrx">
+  <template name="@actions" value="export const $ACTION$ = createAction(&#10;    '[$SCOPE$] $WTF$',&#10;    props&lt;{ data: any }&gt;()&#10;);&#10;&#10;export const $ACTION$Success = createAction(&#10;    '[$SCOPE$] $WTF$ Success',&#10;    props&lt;{ data: any }&gt;()&#10;);&#10;&#10;export const $ACTION$Failure = createAction(&#10;    '[$SCOPE$] $WTF$ Failure',&#10;    props&lt;{ error: any }&gt;()&#10;);$END$" description="ngrx actions" toReformat="true" toShortenFQNames="true">
+    <variable name="ACTION" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="SCOPE" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="WTF" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="TS_EXPRESSION" value="false" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="@effect" value="$ACTION$ = createEffect(() =&gt;&#10;    this.actions$.pipe(&#10;      ofType($ACTION_SCOPE$.$ACTION$),&#10;      mergeMap((params) =&gt;&#10;        this.$SERVICE$&#10;          .$METHOD$()&#10;          .pipe(&#10;            map((response) =&gt;&#10;              $ACTION_SCOPE$.$ACTION$Success({&#10;                data: response.data,&#10;              })&#10;            ),&#10;            catchError((error) =&gt;&#10;              of($ACTION_SCOPE$.$ACTION$Failure(error))&#10;            )&#10;          )&#10;      )&#10;    )&#10;  );" description="ngrx effect" toReformat="true" toShortenFQNames="true">
+    <variable name="ACTION" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="ACTION_SCOPE" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="SERVICE" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="METHOD" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="TS_EXPRESSION" value="false" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+</templateSet>

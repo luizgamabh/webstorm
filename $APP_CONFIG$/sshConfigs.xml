@@ -1,0 +1,7 @@
+<application>
+  <component name="SshConfigs">
+    <configs>
+      <sshConfig host="localhost" id="cfc5d185-5469-4b8f-a907-e77da25755df" keyPath="C:\Users\luizg\.ssh\id_rsa.ppk" port="2222" customName="WSL2" nameFormat="CUSTOM" username="gama" />
+    </configs>
+  </component>
+</application>

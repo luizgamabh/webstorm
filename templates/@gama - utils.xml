@@ -1,0 +1,8 @@
+<templateSet group="@gama - utils">
+  <template name="region" value="&lt;!-- region $REGION_NAME$$END$ --&gt;&#10;$SELECTION$&#10;&lt;!-- endregion : $REGION_NAME$ --&gt;" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="REGION_NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+</templateSet>
