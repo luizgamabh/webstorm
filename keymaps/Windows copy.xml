@@ -1,0 +1,26 @@
+<keymap version="1" name="Windows copy" parent="$default">
+  <action id="ReformatWithPrettierAction">
+    <keyboard-shortcut first-keystroke="shift ctrl alt k" />
+  </action>
+  <action id="angularCliGenerate">
+    <keyboard-shortcut first-keystroke="shift ctrl alt s" second-keystroke="s" />
+  </action>
+  <action id="me.laria.code.idea_caseconv.CamelCaseAction">
+    <mouse-shortcut keystroke="control alt button142" />
+  </action>
+  <action id="me.laria.code.idea_caseconv.DashCaseAction">
+    <mouse-shortcut keystroke="shift control button143" />
+  </action>
+  <action id="me.laria.code.idea_caseconv.LowerCaseAction">
+    <mouse-shortcut keystroke="shift control alt button142" />
+  </action>
+  <action id="me.laria.code.idea_caseconv.PascalCaseAction">
+    <mouse-shortcut keystroke="control alt button143" />
+  </action>
+  <action id="me.laria.code.idea_caseconv.SnakeCaseAction">
+    <mouse-shortcut keystroke="shift control button142" />
+  </action>
+  <action id="me.laria.code.idea_caseconv.UpperCaseAction">
+    <mouse-shortcut keystroke="shift control alt button143" />
+  </action>
+</keymap>
