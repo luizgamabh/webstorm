@@ -1633,6 +1633,14 @@
             </plugin>
           </value>
         </entry>
+        <entry key="nx.json">
+          <value>
+            <plugin>
+              <option name="myPluginId" value="com.github.iguissouma.nxconsole" />
+              <option name="myPluginName" value="Nx Console Idea" />
+            </plugin>
+          </value>
+        </entry>
         <entry key="tsconfig.app.json">
           <value>
             <plugin>
