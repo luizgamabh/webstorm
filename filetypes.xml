@@ -2,6 +2,7 @@
   <component name="FileTypeManager" version="18">
     <extensionMap>
       <mapping ext="dev" type="Dockerfile" />
+      <removed_mapping ext="graphqlconfig" type="JSON" />
       <mapping pattern="README.md" type="Native" />
       <mapping pattern=".env.example" type="PLAIN_TEXT" />
       <mapping pattern=".env" type="PLAIN_TEXT" />
