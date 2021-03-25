@@ -1,0 +1,7 @@
+<templateSet group="@gama - firebase">
+  <template name="firep" value="firebase.auth().setPersistence(firebase.auth.Auth.Persistence.LOCAL).then(() =&gt; {&#10;    $SELECTION$&#10;})" description="Firebase persistence" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+</templateSet>

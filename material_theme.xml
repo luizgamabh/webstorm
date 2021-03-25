@@ -1,0 +1,10 @@
+<application>
+  <component name="MaterialThemeConfig">
+    <option name="compactMenus" value="true" />
+    <option name="isCompactMenus" value="true" />
+    <option name="accentColor" value="84ffff" />
+    <option name="selectedTheme" value="DEEPOCEAN" />
+    <option name="userId" value="4c838074:175563d5244:-8000" />
+    <option name="version" value="5.5.0" />
+  </component>
+</application>
