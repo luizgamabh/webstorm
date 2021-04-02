@@ -5,4 +5,12 @@
       <option name="HTML" value="true" />
     </context>
   </template>
+  <template name="scrollToFn" value="goto(element: HTMLElement | string, offset = 0, event?) {&#10;  event?.preventDefault();&#10;  const bodyRect = $CONTEXT$document.body.getBoundingClientRect().top;&#10;  const elementRect = (element instanceof HTMLElement&#10;      ? element&#10;      : $CONTEXT$document.querySelector(element)&#10;  )?.getBoundingClientRect().top;&#10;  if (elementRect) {&#10;    const elementPosition = elementRect - bodyRect;&#10;    const offsetPosition = elementPosition - offset;&#10;&#10;    $CONTEXT$window.scrollTo({&#10;      top: offsetPosition,&#10;      behavior: 'smooth',&#10;    });&#10;  }&#10;}" description="Smooth scroll to element" toReformat="false" toShortenFQNames="true">
+    <variable name="CONTEXT" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JS_CLASS" value="true" />
+      <option name="JS_EXPRESSION" value="true" />
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
 </templateSet>
