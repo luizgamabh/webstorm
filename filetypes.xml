@@ -2,9 +2,9 @@
   <component name="FileTypeManager" version="18">
     <extensionMap>
       <mapping ext="dev" type="Dockerfile" />
-      <mapping ext="graphqlconfig" type="JSON" />
       <mapping pattern="README.md" type="Native" />
       <mapping pattern=".env.example" type="PLAIN_TEXT" />
+      <mapping pattern=".prettierignore" type="PLAIN_TEXT" />
       <mapping pattern="2020-05-14-diga-nao-ao-medium-tenha-a-sua-propria-plataforma" type="PLAIN_TEXT" />
       <mapping pattern=".dokku-monorepo" type="PLAIN_TEXT" />
       <mapping ext="tpl" type="PLAIN_TEXT" />
