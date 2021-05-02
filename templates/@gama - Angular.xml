@@ -1,0 +1,9 @@
+<templateSet group="@gama - Angular">
+  <template name="singleton-module" value="import { NgModule, Optional, SkipSelf } from &quot;@angular/core&quot;;&#10;&#10;@NgModule({&#10;  imports: [],&#10;  declarations: [],&#10;})&#10;export class $MODULE_NAME$Module {&#10;  constructor(@Optional() @SkipSelf() parentModule?: $MODULE_NAME$Module) {&#10;    if (parentModule) {&#10;      throw new Error(&#10;        &quot;$MODULE_NAME$Module is already loaded. Import it in the AppModule only&quot;&#10;      );&#10;    }&#10;  }$END$&#10;}&#10;" description="Singleton Module" toReformat="false" toShortenFQNames="true">
+    <variable name="MODULE_NAME" expression="" defaultValue="MySingletonModule" alwaysStopAt="true" />
+    <context>
+      <option name="TS_STATEMENT" value="true" />
+      <option name="TS_TOP_LEVEL_STATEMENT" value="true" />
+    </context>
+  </template>
+</templateSet>
