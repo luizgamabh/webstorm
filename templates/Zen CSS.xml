@@ -11,4 +11,7 @@
   <template name="w" value="width: $END$;" description="width:...;" toReformat="false" toShortenFQNames="true">
     <context />
   </template>
+  <template name="h" value="height: $END$;" description="height:...;" toReformat="false" toShortenFQNames="true">
+    <context />
+  </template>
 </templateSet>
