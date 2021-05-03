@@ -14,4 +14,16 @@
   <template name="h" value="height: $END$;" description="height:...;" toReformat="false" toShortenFQNames="true">
     <context />
   </template>
+  <template name="f" value="font: $END$;" description="font:...;" toReformat="false" toShortenFQNames="true">
+    <context />
+  </template>
+  <template name="fxf" value="flex-flow: $END$;" description="flex-flow:...;" toReformat="false" toShortenFQNames="false">
+    <context />
+  </template>
+  <template name="ai" value="align-items: $END$;" description="align-items:...;" toReformat="false" toShortenFQNames="false">
+    <context />
+  </template>
+  <template name="fx" value="flex: $END$;" description="flex:...;" toReformat="false" toShortenFQNames="false">
+    <context />
+  </template>
 </templateSet>
