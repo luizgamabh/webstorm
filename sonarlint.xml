@@ -2,6 +2,7 @@
   <component name="SonarLintGlobalSettings">
     <rules>
       <Rule active="false" key="typescript:S3317" />
+      <Rule active="false" key="typescript:S4624" />
     </rules>
   </component>
 </application>
