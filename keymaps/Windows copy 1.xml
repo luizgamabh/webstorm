@@ -9,6 +9,9 @@
   <action id="Git.ResolveConflicts">
     <keyboard-shortcut first-keystroke="alt dead_grave" />
   </action>
+  <action id="Javascript.Linters.EsLint.Fix">
+    <keyboard-shortcut first-keystroke="shift ctrl alt e" />
+  </action>
   <action id="ReformatWithPrettierAction">
     <keyboard-shortcut first-keystroke="shift ctrl alt k" />
   </action>
