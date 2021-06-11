@@ -4,7 +4,7 @@
     <property name="created">2021-05-27T12:36:11</property>
     <property name="ide">WebStorm</property>
     <property name="ideVersion">2021.1.1.0.0</property>
-    <property name="modified">2021-06-09T22:45:08</property>
+    <property name="modified">2021-06-11T11:46:58</property>
     <property name="originalScheme">Solarized Light (Material)</property>
   </metaInfo>
   <option name="LINE_SPACING" value="1.4" />
@@ -228,9 +228,9 @@
       </value>
     </option>
     <option name="BASH.FUNCTION_CALL" baseAttributes="" />
-    <option name="BASH.FUNCTION_DEF_NAME" baseAttributes="DEFAULT_FUNCTION_DECLARATION" />
+    <option name="BASH.FUNCTION_DEF_NAME" baseAttributes="" />
     <option name="BASH.INTERNAL_COMMAND" baseAttributes="" />
-    <option name="BASH.SHEBANG" baseAttributes="BASH.LINE_COMMENT" />
+    <option name="BASH.SHEBANG" baseAttributes="" />
     <option name="BASH.VAR_USE">
       <value>
         <option name="FOREGROUND" value="cb4b16" />
