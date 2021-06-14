@@ -2,6 +2,7 @@
   <component name="FileTypeManager" version="18">
     <extensionMap>
       <mapping ext="dev" type="Dockerfile" />
+      <mapping ext="prod" type="Dockerfile" />
       <mapping pattern="README.md" type="Native" />
       <mapping pattern=".env.example" type="PLAIN_TEXT" />
       <mapping pattern=".prettierignore" type="PLAIN_TEXT" />
