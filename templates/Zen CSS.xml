@@ -26,4 +26,10 @@
   <template name="fx" value="flex: $END$;" description="flex:...;" toReformat="false" toShortenFQNames="false">
     <context />
   </template>
+  <template name="m" value="margin: $END$;" description="margin:...;" toReformat="false" toShortenFQNames="true">
+    <context />
+  </template>
+  <template name="mb" value="margin-bottom: $END$;" description="margin-bottom:...;" toReformat="false" toShortenFQNames="true">
+    <context />
+  </template>
 </templateSet>
