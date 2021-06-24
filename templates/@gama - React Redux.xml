@@ -1,0 +1,12 @@
+<templateSet group="@gama - React Redux">
+  <template name="@ra" value="const $ACTION$ = createAction&lt;{$END$}&gt;(&#10;  '[$SCOPE$] $DESCRIPTION$',&#10;)&#10;&#10;const $ACTION$Success = createAction&lt;{}&gt;('[$SCOPE$] $DESCRIPTION$ Success')&#10;&#10;const $ACTION$Failure = createAction&lt;{ error: any }&gt;(&#10;  '[$SCOPE$] $DESCRIPTION$ Failure',&#10;)" description="React Redux Observable Actions" toReformat="true" toShortenFQNames="true">
+    <variable name="ACTION" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="SCOPE" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="DESCRIPTION" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="ECMAScript6" value="true" />
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+</templateSet>
