@@ -4,7 +4,7 @@
     <property name="created">2021-06-18T20:59:04</property>
     <property name="ide">WebStorm</property>
     <property name="ideVersion">2021.1.2.0.0</property>
-    <property name="modified">2021-06-26T17:08:23</property>
+    <property name="modified">2021-06-26T18:06:24</property>
     <property name="originalScheme">Monokai Pro (Material)</property>
   </metaInfo>
   <option name="LINE_SPACING" value="1.4" />
@@ -3905,10 +3905,6 @@
         <option name="EFFECT_TYPE" value="5" />
       </value>
     </option>
-    <option name="org.rust.LIFETIME" baseAttributes="DEFAULT_IDENTIFIER" />
-    <option name="org.rust.MACRO" baseAttributes="DEFAULT_IDENTIFIER" />
-    <option name="org.rust.MUT_BINDING" baseAttributes="DEFAULT_IDENTIFIER" />
-    <option name="org.rust.MUT_PARAMETER" baseAttributes="DEFAULT_PARAMETER" />
     <option name="org.rust.TYPE_PARAMETER">
       <value>
         <option name="FOREGROUND" value="78dce8" />
