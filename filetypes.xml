@@ -4,13 +4,13 @@
       <mapping ext="dev" type="Dockerfile" />
       <mapping ext="prod" type="Dockerfile" />
       <mapping pattern="README.md" type="Native" />
-      <mapping pattern=".env.example" type="PLAIN_TEXT" />
-      <mapping pattern=".prettierignore" type="PLAIN_TEXT" />
-      <mapping pattern="2020-05-14-diga-nao-ao-medium-tenha-a-sua-propria-plataforma" type="PLAIN_TEXT" />
       <mapping pattern=".dokku-monorepo" type="PLAIN_TEXT" />
+      <mapping pattern=".prettierignore" type="PLAIN_TEXT" />
+      <mapping pattern=".huskyrc" type="PLAIN_TEXT" />
+      <mapping pattern=".env.example" type="PLAIN_TEXT" />
       <mapping pattern=".dockerignore" type="PLAIN_TEXT" />
       <mapping pattern="carpay" type="PLAIN_TEXT" />
-      <mapping pattern=".huskyrc" type="PLAIN_TEXT" />
+      <mapping pattern="2020-05-14-diga-nao-ao-medium-tenha-a-sua-propria-plataforma" type="PLAIN_TEXT" />
       <mapping ext="tpl" type="PLAIN_TEXT" />
       <removed_mapping ext="ignore" approved="true" type="IgnoreLang file" />
       <removed_mapping ext="md" approved="true" type="Native" />
