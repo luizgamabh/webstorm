@@ -4,7 +4,6 @@
     <option name="compactStatusBar" value="true" />
     <option name="compactTables" value="true" />
     <option name="highlightColorEnabled" value="true" />
-    <option name="allowDataCollection" value="true" />
     <option name="borderedButtons" value="true" />
     <option name="compactDropdowns" value="true" />
     <option name="compactSidebar" value="true" />
