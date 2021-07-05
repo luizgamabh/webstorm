@@ -4,7 +4,7 @@
     <property name="created">2021-05-27T12:36:11</property>
     <property name="ide">WebStorm</property>
     <property name="ideVersion">2021.1.1.0.0</property>
-    <property name="modified">2021-07-03T10:25:55</property>
+    <property name="modified">2021-07-05T11:44:30</property>
     <property name="originalScheme">Obsidian</property>
   </metaInfo>
   <option name="LINE_SPACING" value="1.4" />
@@ -53,7 +53,7 @@
   <attributes>
     <option name="ANNOTATION_ATTRIBUTE_NAME_ATTRIBUTES" baseAttributes="" />
     <option name="ANNOTATION_NAME_ATTRIBUTES" baseAttributes="" />
-    <option name="BASH.EXTERNAL_COMMAND" baseAttributes="DEFAULT_IDENTIFIER" />
+    <option name="BASH.EXTERNAL_COMMAND" baseAttributes="" />
     <option name="BREADCRUMBS_CURRENT">
       <value>
         <option name="FOREGROUND" value="c9cccd" />
@@ -429,10 +429,10 @@
         <option name="EFFECT_TYPE" value="1" />
       </value>
     </option>
-    <option name="HAML_CLASS" baseAttributes="DEFAULT_KEYWORD" />
-    <option name="HAML_COMMENT" baseAttributes="DEFAULT_DOC_COMMENT" />
-    <option name="HAML_ID" baseAttributes="DEFAULT_INSTANCE_FIELD" />
-    <option name="HAML_RUBY_CODE" baseAttributes="INJECTED_LANGUAGE_FRAGMENT" />
+    <option name="HAML_CLASS" baseAttributes="" />
+    <option name="HAML_COMMENT" baseAttributes="" />
+    <option name="HAML_ID" baseAttributes="" />
+    <option name="HAML_RUBY_CODE" baseAttributes="" />
     <option name="HAML_TAG">
       <value>
         <option name="FOREGROUND" value="444e50" />
@@ -535,7 +535,7 @@
         <option name="FOREGROUND" value="bac8cb" />
       </value>
     </option>
-    <option name="JSP_DIRECTIVE_NAME" baseAttributes="DEFAULT_KEYWORD" />
+    <option name="JSP_DIRECTIVE_NAME" baseAttributes="" />
     <option name="JSP_SCRIPTING_BACKGROUND">
       <value>
         <option name="FOREGROUND" value="c9cccd" />
