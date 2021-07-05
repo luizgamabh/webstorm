@@ -14,6 +14,9 @@
   <action id="ToggleZenMode">
     <keyboard-shortcut first-keystroke="alt f" second-keystroke="4" />
   </action>
+  <action id="XDebugger.PinToTop">
+    <keyboard-shortcut first-keystroke="shift ctrl alt page_up" />
+  </action>
   <action id="angularCliGenerate">
     <keyboard-shortcut first-keystroke="shift ctrl alt s" second-keystroke="s" />
   </action>
